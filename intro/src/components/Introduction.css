@@ -10,7 +10,6 @@
 
 .right {
   flex: 50%;
-  background-color: #555;
 }
 
 .heading{
@@ -23,4 +22,10 @@
   margin-left: 10%;
   margin-right: 10%;
   font-size: 20px;
+}
+
+.myImage {
+  max-width: 100%; /* Ensures the image doesn't exceed the container width */
+  max-height: 100%; /* Ensures the image doesn't exceed the container height */
+  margin: 0 10%; /* Margin on both left and right sides */
 }

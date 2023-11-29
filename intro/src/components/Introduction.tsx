@@ -1,4 +1,5 @@
 import "./Introduction.css";
+import myImage from "./myphoto.jpg";
 
 const Introduction = () => {
   return (
@@ -14,7 +15,9 @@ const Introduction = () => {
           technology.
         </p>
       </div>
-      <div className="right"></div>
+      <div className="right">
+        <img className="myImage" src={myImage} alt="" />
+      </div>
     </div>
   );
 };
