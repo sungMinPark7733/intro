@@ -2,19 +2,31 @@
   text-align: center;
 }
 
-.column {
+.columns {
   display: flex;
   flex-direction: row;
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
 }
 
-.column div {
+.columns div {
   margin-right: 60px; /* Adjust the margin as needed */
+  
 }
 
-.desc {
+.title{
+    text-align: center;
+
+}
+.column {
+  margin: 20px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
+  flex-direction: row;
 
+}
+
+.example {
+  width: 250px;
+  margin: auto; /* Center the image horizontally */
 }
